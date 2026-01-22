@@ -1,0 +1,157 @@
+/* Основні налаштування стилів */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* HERO */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    background: #f5f5f5;
+}
+
+.hero-text {
+    font-size: 110px;
+    line-height: 0.9;
+    color: #ff6600;
+    margin: 0;
+}
+
+.hero-subtitle {
+    max-width: 400px;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.hero-image {
+    max-width: 520px;
+}
+
+/* BUTTON */
+.btn-primary {
+    padding: 12px 30px;
+    border: 2px solid #ff6600;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #ff6600;
+    color: #fff;
+}
+
+/* ABOUT */
+.about-section {
+    padding: 70px 60px;
+    max-width: 900px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rating {
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+/* FEATURES */
+.features-section {
+    background: #111;
+    color: #fff;
+    padding: 70px 60px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    border-left: 4px solid #ff6600;
+    padding-left: 20px;
+}
+
+/* SPECIFICATIONS */
+.specifications-section {
+    padding: 70px 60px;
+    max-width: 900px;
+}
+
+.spec-list {
+    list-style: none;
+    padding: 0;
+}
+
+.spec-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* OTHER MODELS */
+.other-models {
+    text-align: center;
+    padding: 60px;
+    border-top: 1px solid #eee;
+}
+
+.models {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.model-item {
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+}
+
+.model-item.active {
+    color: #000;
+    border-bottom: 2px solid #ff6600;
+}
+
+/* FOOTER */
+.footer {
+    background: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
